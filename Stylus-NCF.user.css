@@ -4,7 +4,7 @@
 @description Transforms www.ncf.ca pages into a dark theme.
 @author      Rob Johnston
 @homepageURL https://github.com/robjohnston/NcfDark
-==/UserStyle== */
+==/UserStyle== */@-moz-document domain("ncf.ca") {
 body {
     background: #171717 !important;
     color: #e3e3e3 !important;
@@ -28,6 +28,7 @@ form input:not([type]) {
     padding: 3px;
 }
 
+form input[type="reset"],
 form input[type="submit"] {
     background-color: #005da6;
     border-color: #004e8c;
@@ -44,6 +45,8 @@ div#topbar div {
     background: white;
 }
 
+
+/* Bar below banner */
 div#topbar div#topbar_linkbar {
     background: #171717;
 }
@@ -54,4 +57,386 @@ div#leftbar {
 
 body > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > table > tbody > tr > td {
     background: white;
+}
+}
+
+@-moz-document url-prefix("https://www.ncf.ca/ncf") {
+body {
+    background: #171717 !important;
+}
+
+a {
+    font-size: medium;
+    text-decoration: none;
+}
+
+/* Bar below banner */
+td.headerlinks {
+    background: lightsteelblue;
+    font: inherit;
+    padding-top: 3px;
+}
+
+div.messages {
+    font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+div.messages h2,
+div.news h2 {
+    background: #38225d;
+    color: #e3e3e3;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 5px;
+}
+div.news h3 {
+    background: #002b4d;
+    border-radius: 5px;
+    color: #a3d7ff;
+    font-size: larger;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+div.messages h3 {
+    background: #242424;
+    border: 1px solid #454545;
+    color: #e3e3e3;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+div.messages p {
+    background: #2e2e2e;
+    border: 1px solid #454545;
+    padding: 10px;
+}
+
+.sidebar h2 {
+    background: #38225d;
+    border-radius: 5px;
+    color: #e3e3e3;
+    padding: 5px;
+}
+
+/* Headlines */
+body > table > tbody > tr > td.content > div.news > h3 {
+    margin-top: 10px;
+}
+
+/* CBC logo */
+body > table:nth-child(2) > tbody > tr:nth-child(1) > td.content > div.news > a > img {
+    display: none;
+}
+
+/* Footer */
+body > table.verdana {
+    background: #28225d;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+    font: inherit !important;
+    margin-bottom: 50px;
+}
+}
+
+@-moz-document url-prefix("https://www.ncf.ca/ncf/dg") {
+/* DG page */
+body > table:nth-child(2) > tbody > tr > td * {
+    background: #171717 !important;
+    color: #e3e3e3 !important;
+}
+
+/* DG description */
+body > table:nth-child(2) > tbody > tr > td.content > p:nth-child(1) {
+    background: #38225d;
+    color: #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* DG header */
+body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:nth-child(1) * {
+    background: #38225d;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+tr.line0 * {
+    background: #171717 !important;
+    color: #e3e3e3 !important;
+    padding: 2px;
+}
+
+tr.line1 * {
+    background: #171717 !important;
+    color: #e3e3e3 !important;
+    padding: 2px;
+}
+
+tr.line0 > td > table {
+    border: solid #454545 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+tr.line1 > td > table {
+    border: solid #454545 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+tr.line0 > td > table > tbody > tr:nth-child(n) * {
+    background: #2e2e23 !important;
+    border: none;
+    color: #e3e3e3 !important;
+}
+tr.line1 > td > table > tbody > tr:nth-child(n) * {
+    background: #2e2e23 !important;
+    border: none;
+    color: #e3e3e3 !important;
+}
+tr.line0 > td > table > tbody > tr:nth-child(1) * {
+    background: #242424 !important;
+    border: none;
+    color: #e3e3e3 !important;
+}
+
+tr.line1 > td > table > tbody > tr:nth-child(1) * {
+    background: #242424 !important;
+    border: none;
+    color: #e3e3e3 !important;
+}
+
+#thread0 > td,
+#thread1 > td {
+    border: none !important;
+}
+/* "New Posting" link button */
+body > table:nth-child(2) > tbody > tr > td.sidebar > table > tbody * {
+    background: #4db2ff !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #000 !important;
+    font-size: 0.8rem;
+    padding: 3px;
+}
+
+/* Footer bar */
+body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:last-child > td > table * {
+    background: #242424 !important;
+    border: none;
+    color: #e3e3e3 !important;
+    padding: 10px
+}
+
+/* Left-side menu */
+body > table > tbody > tr > td.sidebar a {
+    color: #0091ff !important;
+}
+body > table > tbody > tr > td.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons on the dgNew page */
+input[type="submit"]:nth-child(1),
+input[type="reset"]:nth-child(2) {
+    background: #0091ff !important;
+}
+}
+
+@-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgView.jsp") {
+/* "Back to list" header */
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) * {
+    background: #38225d !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Links */
+body > table:nth-child(2) > tbody > tr > td > form > p > a,
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(9) > td > a {
+    color: #0091ff !important;
+}
+
+/* Subject header */
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr.title > td {
+    border: none;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Postings */
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#auth {
+    background: #242424 !important;
+    border: 1px solid #454545;
+    border-bottom: none;
+    padding-top: 10px;
+}
+
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#auth > * {
+    background: #242424 !important;
+}
+
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#ctrl {
+    background: #242424 !important;
+    border: 1px solid #454545;
+    border-top: none;
+}
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#body {
+    border: 1px solid #454545;
+    padding: 10px;
+}
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#body a {
+    color: #0091ff !important;
+    text-decoration: none;
+}
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#body a:hover {
+    color: #0091ff !important;
+    text-decoration: underline;
+}
+}
+
+@-moz-document url-prefix("https://www.ncf.ca/ncf/support/wiki/") {
+body div#content {
+    background: #171717;
+    color: #e3e3e3;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #e3e3e3;
+}
+
+#p-tb-label {
+    color: white !important;
+}
+
+body a,
+body ul li a {
+    color: #0091ff;
+}
+
+body a:visited {
+    color: orange;
+}
+
+
+#mw-head {
+    background: #171717
+}
+
+div#simpleSearch {
+    background: #171717;
+    border: 1px solid #454545;
+    color: #e3e3e3;
+    padding: 3px;
+}
+
+/* Bar below banner */
+#localNotice > div > table > tbody > tr:nth-child(2) > * {
+    background: lightsteelblue;
+}
+
+/* Table of contents */
+div#toc {
+    background: #38225d;
+    border-radius: 5px;
+}
+span.tocnumber {
+    color: white;
+}
+
+#localNotice > div > table > tbody > tr:nth-child(2) td a {
+    color: #0091ff;
+    font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+    font-size: small;
+}
+
+div#mw-panel div.portal div.body ul li a,
+div#mw-panel div.portal div.body ul li a:visited {
+    color: #0091ff;
+}
+
+.mw-body-content a.external {
+    color: #0091ff;
+}
+.mw-body-content a.external:visited {
+    color: #569cd6;
+}
+
+div#bodyContent div#mw-content-text div.ncfboxtitle {
+    background: #242424;
+    color: #e3e3e3;
+}
+div.ncfboxborder {
+    border: solid #454545 1px;
+}
+
+div.ncfboxcontents {
+    background: #2e2e2e;
+    color: #e3e3e3;
+}
+}
+
+@-moz-document url-prefix("https://auth.ncf.ca") {
+#container > div:nth-child(2) > div.col-lg-6 > div {
+    background: #171717;
+}
+
+#container > div:nth-child(1) > div:nth-child(1) {
+    background: #242424;
+}
+#container > div:nth-child(2) > div:nth-child(1) {
+    background: #242424;
+}
+#container > div:nth-child(1) > div:nth-child(4) {
+    background: #242424;
+}
+#container > div:nth-child(2) > div:nth-child(4) {
+    background: #242424;
+}
+
+#container > div:nth-child(1) > div.col-lg-4.col-sm-12.border-0.pl-0.ml-0.h-100 > div > div {
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/* Login */
+div.card {
+    background: #242424;
+    color: #e3e3e3;
+}
+
+
+div.card-header {
+    background: #415180;
+    color: #e3e3e3;
+}
+
+/* Bottom alert */
+#container > div:nth-child(5) > div.col-lg-6.justify-self-center > div * {
+    background: #38225d !important;
+    color: #e3e3e3;
+}
+
+
+/* Handle sponsor graphics */
+#container > div:nth-child(1) > div.col-lg-6.border-0.pr-0.mr-0.justify-content-center > div > div.d-none.d-md-block {
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#container > div:nth-child(2) > div.col-lg-6 > div > div > div > p:nth-child(2) {
+    background: #ffffff;
+    border-radius: 5px;
+}
 }
