@@ -6,7 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- N/A
+
 ## 0.1.1 - 2018-12-02
+### Added
 - Style form buttons to be bigger and blue.
 - Set form input fields to black.
 - Change headerlinks from light brown to light blue.
