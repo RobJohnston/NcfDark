@@ -189,12 +189,12 @@ tr.line1 > td > table {
 }
 
 tr.line0 > td > table > tbody > tr:nth-child(n) * {
-    background: #2e2e23 !important;
+    background: #2e2e2e !important;
     border: none;
     color: #e3e3e3 !important;
 }
 tr.line1 > td > table > tbody > tr:nth-child(n) * {
-    background: #2e2e23 !important;
+    background: #2e2e2e !important;
     border: none;
     color: #e3e3e3 !important;
 }
