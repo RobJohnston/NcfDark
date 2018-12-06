@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
  - Make the "checking activity" text green.
  - Style "Back to list" in footer like header.
+ - Add styles for discussion contribtion page.
 
 ### Changed
  - Fixed background color of discussion group subjects.
