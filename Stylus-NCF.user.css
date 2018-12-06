@@ -66,10 +66,6 @@ body > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(
 }
 
 @-moz-document url-prefix("https://www.ncf.ca/ncf") {
-body {
-    background: #171717 !important;
-}
-
 a {
     font-size: medium;
     text-decoration: none;

@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
  - Fixed background color of discussion group subjects.
+ - Remove redundant background colour.
 
 ## 0.1.1 - 2018-12-02
 ### Added
