@@ -159,10 +159,28 @@
         border-radius: 10px;
     }
     
-    /* DG header */
-    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:nth-child(1) * {
-        background: #38225d;
+    /* Page header */
+    body > table:nth-child(2) > tbody > tr > td.content > div > h2 {
+        background: #38225d !important;
         border-radius: 10px;
+        font-size: large;
+        padding: 10px;
+    }
+    
+    
+    /* "Currently know problems" Subject header (maybe others?) */
+    body > table:nth-child(2) > tbody > tr > td.content > div > h2 {
+        background: #38225d !important;
+        border-radius: 10px;
+        font-size: large;
+        padding: 10px;
+    }
+    
+    
+    /* DG header (Subject, Contributor, Date/Time) */
+    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:nth-child(1) > td > table > tbody > tr * {
+        background: #002b4d !important;
+        color: #a3d7ff !important;
         padding: 3px;
     }
     
@@ -275,14 +293,6 @@
     }
     body > table:nth-child(2) > tbody > tr > td > form > p > a:hover {
         text-decoration: underline;
-    }
-    
-    /* Subject header */
-    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr.title > td {
-        background: #38225d !important;
-        border: 1px solid #454545;
-        font-size: x-large;
-        padding: 15px;
     }
     
     /* Postings */
