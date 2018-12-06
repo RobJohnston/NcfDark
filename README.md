@@ -8,7 +8,7 @@ A user style to transform the pages of the www.ncf.ca site to a dark theme.
 3. Open the Stylus extension and click the "Find styles" link.  Ensure the "Inline" checkbox is checked.
 4. This "NCF DarK" theme should appear as an option.  Select it!  Enjoy.
 
-## Screenshots (original version)
+## Screenshots
 
 ![Screenshot of members start page](https://github.com/RobJohnston/NcfDark/blob/master/StartPage.png)
 
