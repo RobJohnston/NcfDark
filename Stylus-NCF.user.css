@@ -263,10 +263,15 @@ body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-chi
     padding: 10px;
 }
 
-/* Links */
-body > table:nth-child(2) > tbody > tr > td > form > p > a,
-body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(9) > td > a {
+/* "Add a contribution" in footer */
+body > table:nth-child(2) > tbody > tr > td > form > p {
+    margin-top:20px;
+}
+body > table:nth-child(2) > tbody > tr > td > form > p > a {
     color: #0091ff !important;
+}
+body > table:nth-child(2) > tbody > tr > td > form > p > a:hover {
+    text-decoration:underline;
 }
 
 /* Subject header */
