@@ -58,6 +58,11 @@ div#leftbar {
 body > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > table > tbody > tr > td {
     background: white;
 }
+
+/* The ""...checking activity" text of DG favourites */
+#dgFavs > p > span * {
+    color:#57a64a !important;
+}
 }
 
 @-moz-document url-prefix("https://www.ncf.ca/ncf") {

@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+ - Make the "checking activity" text green.
+
 ### Changed
  - Fixed background color of discussion group subjects.
 
