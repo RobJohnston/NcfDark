@@ -256,6 +256,13 @@ body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-chil
     padding: 10px;
 }
 
+/* "Back to list" footer */
+body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child * {
+    background: #38225d !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 /* Links */
 body > table:nth-child(2) > tbody > tr > td > form > p > a,
 body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(9) > td > a {
