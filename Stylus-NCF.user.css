@@ -251,17 +251,19 @@
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgView.jsp") {
     /* "Back to list" header */
-    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) * {
-        background: #38225d !important;
-        border-radius: 5px;
-        padding: 10px;
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) > td > a {
+        color: #0091ff !important;
+    }
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) > td > a:hover {
+        text-decoration: underline;
     }
     
     /* "Back to list" footer */
-    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child * {
-        background: #38225d !important;
-        border-radius: 5px;
-        padding: 10px;
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child > td > a {
+        color: #0091ff !important;
+    }
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child > td > a:hover {
+        text-decoration: underline;
     }
     
     /* "Add a contribution" in footer */
@@ -277,10 +279,10 @@
     
     /* Subject header */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr.title > td {
-        border: none;
+        background: #38225d !important;
+        border: 1px solid #454545;
         font-size: x-large;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 15px;
     }
     
     /* Postings */
@@ -316,22 +318,27 @@
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgNew.jsp") {
     /* "Back to list" header */
-    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) * {
-        background: #38225d !important;
-        border-radius: 5px;
-        padding: 10px !important;
+    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) > td > a {
+        color: #0091ff !important;
+    }
+    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) > td > a:hover {
+        text-decoration: underline;
     }
     
     /* "Back to list" footer */
-    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:last-child * {
-        background: #38225d !important;
-        border-radius: 5px;
-        padding: 10px;
+    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:last-child > td > a {
+        color: #0091ff !important;
+    }
+    body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:last-child > td > a:hover {
+        text-decoration: underline;
     }
     
     /* "Return to list" in footer */
-    body > table:nth-child(2) > tbody > tr > td > p:nth-child(5) {
-        margin-top: 20px;
+    body > table:nth-child(2) > tbody > tr > td > p:nth-child(n) > a {
+        color: #0091ff !important;
+    }
+    body > table:nth-child(2) > tbody > tr > td > p:nth-child(n) > a:hover {
+        text-decoration: underline;
     }
     
     body > table:nth-child(2) > tbody > tr > td > p:nth-child(5) a {
@@ -343,9 +350,10 @@
     
     /* Subject header */
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr.title > td {
+        background: #38225d !important;
+        border: 1px solid #454545;
         font-size: x-large;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 15px;
     }
     
     /* Postings */
