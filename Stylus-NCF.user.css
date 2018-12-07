@@ -294,7 +294,15 @@
     body > table:nth-child(2) > tbody > tr > td > form > p > a:hover {
         text-decoration: underline;
     }
-    
+
+    /* Subject header */
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr.title > td {
+        background: #38225d !important;
+        border: 1px solid #454545;
+        font-size: x-large;
+        padding: 15px;
+    }
+
     /* Postings */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#auth {
         background: #242424 !important;
