@@ -70,6 +70,12 @@
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf") {
+    /* Banner */
+    body > table:nth-child(1) {
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
     /* Bar below banner */
     td.headerlinks {
         background: lightsteelblue;
