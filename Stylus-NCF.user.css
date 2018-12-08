@@ -266,7 +266,7 @@
     
     /* "New Posting" link button */
     body > table:nth-child(2) > tbody > tr > td.sidebar > table > tbody * {
-        background: #4db2ff !important;
+        background: #245269 !important;
         border: 1px solid transparent;
         border-radius: 2px;
         color: #e2e2e2 !important;
