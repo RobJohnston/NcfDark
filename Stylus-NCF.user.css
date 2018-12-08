@@ -70,10 +70,6 @@
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf") {
-    /* Left-side and right-side menu */
-    td.sidebar a:hover {
-        color: #0091ff !important;
-    }
     /* Bar below banner */
     td.headerlinks {
         background: lightsteelblue;
@@ -83,13 +79,41 @@
     td.headerlinks a {
         color: darkblue !important;
     }
+    }
     
+    @-moz-document url-prefix("https://www.ncf.ca/ncf/home") {
+    /* Headlines */
+    body > table > tbody > tr > td.content > div.news > h3 {
+        margin-top: 10px;
+    }
+    
+    /* CBC logo */
+    body > table:nth-child(2) > tbody > tr:nth-child(1) > td.content > div.news > a > img {
+        display: none;
+    }
+    
+    /* Centre-column NCF Announcements */
     div.messages {
         font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
         font-size: medium;
         font-weight: 400;
     }
     
+    div.messages h3 {
+        background: #242424;
+        border: 1px solid #454545;
+        color: #e3e3e3;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    
+    div.messages p {
+        background: #2e2e2e;
+        border: 1px solid #454545;
+        padding: 10px;
+    }
+    
+    /* Centre-column news */
     div.messages h2,
     div.news h2 {
         background: #38225d;
@@ -108,46 +132,6 @@
         margin-bottom: 8px;
     }
     
-    div.messages h3 {
-        background: #242424;
-        border: 1px solid #454545;
-        color: #e3e3e3;
-        margin-top: 20px;
-        padding: 5px;
-    }
-    
-    div.messages p {
-        background: #2e2e2e;
-        border: 1px solid #454545;
-        padding: 10px;
-    }
-    
-    .sidebar h2 {
-        background: #38225d;
-        border-radius: 5px;
-        color: #e3e3e3;
-        padding: 5px;
-    }
-    
-    /* Headlines */
-    body > table > tbody > tr > td.content > div.news > h3 {
-        margin-top: 10px;
-    }
-    
-    /* CBC logo */
-    body > table:nth-child(2) > tbody > tr:nth-child(1) > td.content > div.news > a > img {
-        display: none;
-    }
-    
-    /* Footer */
-    body > table.verdana {
-        background: #28225d;
-        border: 1px solid transparent !important;
-        border-radius: 5px;
-        font: inherit !important;
-        margin-bottom: 50px;
-    }
-    
     /* The ""...checking activity" text of DG favourites */
     #dgFavs > p > span * {
         color: #57a64a !important;
@@ -156,6 +140,26 @@
     /* Make a donation */
     a.donate {
         color: #e2e2e2 !important;
+    }
+    
+    /* Left-side and right-side menu */
+    td.sidebar h2 {
+        background: #38225d;
+        border-radius: 5px;
+        color: #e3e3e3;
+        padding: 5px;
+    }
+    
+    td.sidebar a:hover {
+        color: #0091ff !important;
+    }
+    
+    /* Footer */
+    body > table.verdana {
+        background: #245269;
+        border: 1px solid transparent !important;
+        border-radius: 5px;
+        margin-bottom: 50px;
     }
     }
     

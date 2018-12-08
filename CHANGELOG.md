@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
  - Refactored links for consistency.
+ - Refactored to create separate section for member home page.
 
  ### Fixed
  - Fix to only apply to www (and not mail).
