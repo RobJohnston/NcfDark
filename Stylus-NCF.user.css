@@ -139,7 +139,9 @@
     
     /* Make a donation */
     a.donate {
-        color: #e2e2e2 !important;
+        background:#2B542C;
+        border-radius:5px;
+        color: #fff !important;
     }
     
     /* Left-side and right-side menu */

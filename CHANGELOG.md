@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
  - Refactored to create separate section for member home page.
  - Style the "Add/remove" link like a warning button.
  - Style the "New Posting" button with a better palatte colour. 
+ - Style the "Make a donation" button with a success colour.
 
  ### Fixed
  - Fix to only apply to www (and not mail).
