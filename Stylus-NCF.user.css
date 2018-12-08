@@ -293,6 +293,13 @@
         color: #569cd6 !important;
     }
     
+    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:nth-child(12) > td > table > tbody > tr > td:nth-child(3) > a {
+        background: #66512C !important;
+        border-radius: 5px;
+        color: #e2e2e2 !important;
+        padding: 5px;
+    }
+    
     /* Left-side menu */
     body > table > tbody > tr > td.sidebar a {
         color: #4db2ff !important;
@@ -301,7 +308,6 @@
         color: #0091ff !important;
         text-decoration: underline;
     }
-    
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgView.jsp") {
