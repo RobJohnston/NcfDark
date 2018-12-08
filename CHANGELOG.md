@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
  - Style the "Add/remove" link like a warning button.
  - Style the "New Posting" button with a better palatte colour. 
  - Style the "Make a donation" button with a success colour.
+ - Refactor the new dgNew page to catch up to changes of the dgView page.
 
  ### Fixed
  - Fix to only apply to www (and not mail).

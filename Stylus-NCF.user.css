@@ -139,8 +139,8 @@
     
     /* Make a donation */
     a.donate {
-        background:#2B542C;
-        border-radius:5px;
+        background: #2B542C;
+        border-radius: 5px;
         color: #fff !important;
     }
     
@@ -381,6 +381,25 @@
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgNew.jsp") {
+    /* Group name repeated */
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) > td {
+        display: none;
+    }
+    
+    /* Input form title */
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(3) > td {
+        background: #2e2e2e;
+        border: 1px solid #454545;
+        padding: 10px;
+    }
+    
+    /* Input area */
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(4) > td > textarea {
+        background: #242424;
+        border-color: #454545;
+        color: #e2e2e2;
+    }
+    
     /* "Back to list" header */
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) > td > a {
         color: #4db2ff !important;
@@ -430,6 +449,7 @@
     
     td#auth > *,
     td#ctrl {
+        color: #01cfff;
         background: #242424 !important;
     }
     
