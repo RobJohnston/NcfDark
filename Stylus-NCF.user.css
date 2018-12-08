@@ -164,11 +164,12 @@
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg") {
-    /* DG page */
-    body > table:nth-child(2) > tbody > tr > td * {
+    /* Text below header */
+    body > table:nth-child(2) > tbody > tr > td.content > p {
         background: #171717 !important;
         color: #e3e3e3 !important;
     }
+    
     
     /* DG description */
     body > table:nth-child(2) > tbody > tr > td.content > p:nth-child(1) {
@@ -203,6 +204,7 @@
         padding: 3px;
     }
     
+    /* Messages */
     tr.line0 * {
         background: #171717 !important;
         color: #e3e3e3 !important;
@@ -253,6 +255,15 @@
     #thread1 > td {
         border: none !important;
     }
+    
+    /* Left-side menu */
+    td.sidebar h2 {
+        background: #38225d;
+        border-radius: 5px;
+        color: #e3e3e3;
+        padding: 5px;
+    }
+    
     /* "New Posting" link button */
     body > table:nth-child(2) > tbody > tr > td.sidebar > table > tbody * {
         background: #4db2ff !important;
@@ -270,6 +281,18 @@
         padding: 10px
     }
     
+    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:last-child > td > table * a {
+        color: #4db2ff !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:last-child > td > table * a:hover {
+        color: #0091ff !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td.content > table > tbody > tr:last-child > td > table * a:visited {
+        color: #569cd6 !important;
+    }
+    
     /* Left-side menu */
     body > table > tbody > tr > td.sidebar a {
         color: #4db2ff !important;
@@ -279,11 +302,6 @@
         text-decoration: underline;
     }
     
-    /* Buttons on the dgNew page */
-    input[type="submit"]:nth-child(1),
-    input[type="reset"]:nth-child(2) {
-        background: #0091ff !important;
-    }
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgView.jsp") {
@@ -327,6 +345,7 @@
         background: #242424 !important;
         border: 1px solid #454545;
         border-bottom: none;
+        color: #01cfff;
         padding-top: 10px;
     }
     
@@ -356,33 +375,33 @@
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgNew.jsp") {
     /* "Back to list" header */
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) > td > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:nth-child(1) > td > a:hover {
-        text-decoration: underline;
+        color: #0091ff;
     }
     
     /* "Back to list" footer */
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:last-child > td > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > table > tbody > tr:last-child > td > a:hover {
-        text-decoration: underline;
+        color: #0091ff !important;
     }
     
     /* "Return to list" in footer */
     body > table:nth-child(2) > tbody > tr > td > p:nth-child(n) > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > p:nth-child(n) > a:hover {
-        text-decoration: underline;
+        color: #0091ff;
     }
     
     body > table:nth-child(2) > tbody > tr > td > p:nth-child(5) a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > p:nth-child(5) a:hover {
-        text-decoration: underline;
+        color: #0091ff;
     }
     
     /* Subject header */
