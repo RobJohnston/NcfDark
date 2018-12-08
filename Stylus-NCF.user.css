@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Ncf Dark
-@version     0.1.3
+@version     0.1.4
 @description Transforms www.ncf.ca pages into a dark theme.
 @author      Rob Johnston
 @homepageURL https://github.com/robjohnston/NcfDark
@@ -14,8 +14,16 @@
         font-weight: 400 !important;
     }
     
-    body a {
-        color: #0091ff;
+    a {
+        color: #4db2ff !important;
+        font-size: medium;
+    }
+    a:hover {
+        color: #0091ff !important;
+        text-decoration: underline;
+    }
+    a:visited {
+        color: #569cd6 !important;
     }
     
     /* Form inputs */
@@ -59,24 +67,21 @@
     body > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td:nth-child(1) > table > tbody > tr > td {
         background: white;
     }
-    
-    /* The ""...checking activity" text of DG favourites */
-    #dgFavs > p > span * {
-        color: #57a64a !important;
-    }
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf") {
-    a {
-        font-size: medium;
-        text-decoration: none;
+    /* Left-side and right-side menu */
+    td.sidebar a:hover {
+        color: #0091ff !important;
     }
-    
     /* Bar below banner */
     td.headerlinks {
         background: lightsteelblue;
         font: inherit;
         padding-top: 3px;
+    }
+    td.headerlinks a {
+        color: darkblue !important;
     }
     
     div.messages {
@@ -141,6 +146,16 @@
         border-radius: 5px;
         font: inherit !important;
         margin-bottom: 50px;
+    }
+    
+    /* The ""...checking activity" text of DG favourites */
+    #dgFavs > p > span * {
+        color: #57a64a !important;
+    }
+    
+    /* Make a donation */
+    a.donate {
+        color: #e2e2e2 !important;
     }
     }
     
@@ -239,8 +254,7 @@
         background: #4db2ff !important;
         border: 1px solid transparent;
         border-radius: 2px;
-        color: #000 !important;
-        font-size: 0.8rem;
+        color: #e2e2e2 !important;
         padding: 3px;
     }
     
@@ -254,9 +268,10 @@
     
     /* Left-side menu */
     body > table > tbody > tr > td.sidebar a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table > tbody > tr > td.sidebar a:hover {
+        color: #0091ff !important;
         text-decoration: underline;
     }
     
@@ -270,18 +285,18 @@
     @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/dgView.jsp") {
     /* "Back to list" header */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) > td > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(1) > td > a:hover {
-        text-decoration: underline;
+        color: #0091ff !important;
     }
     
     /* "Back to list" footer */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child > td > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:last-child > td > a:hover {
-        text-decoration: underline;
+        color: #0091ff !important;
     }
     
     /* "Add a contribution" in footer */
@@ -289,12 +304,12 @@
         margin-top: 20px;
     }
     body > table:nth-child(2) > tbody > tr > td > form > p > a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
     }
     body > table:nth-child(2) > tbody > tr > td > form > p > a:hover {
-        text-decoration: underline;
+        color: #0091ff !important;
     }
-
+    
     /* Subject header */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr.title > td {
         background: #38225d !important;
@@ -302,7 +317,7 @@
         font-size: x-large;
         padding: 15px;
     }
-
+    
     /* Postings */
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#auth {
         background: #242424 !important;
@@ -325,7 +340,7 @@
         padding: 10px;
     }
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#body a {
-        color: #0091ff !important;
+        color: #4db2ff !important;
         text-decoration: none;
     }
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td#body a:hover {
@@ -412,16 +427,6 @@
         color: white !important;
     }
     
-    body a,
-    body ul li a {
-        color: #0091ff;
-    }
-    
-    body a:visited {
-        color: orange;
-    }
-    
-    
     #mw-head {
         background: #171717
     }
@@ -448,7 +453,7 @@
     }
     
     #localNotice > div > table > tbody > tr:nth-child(2) td a {
-        color: #0091ff;
+        color: #4db2ff;
         font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
         font-size: small;
     }
