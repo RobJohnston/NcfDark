@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Changed
+- Bump version number.
+
+## 0.1.4 2018-12-08
+
 ### Added
 - Move the banner down from the top edge.
 - Style the footer messages of discussion groups.
