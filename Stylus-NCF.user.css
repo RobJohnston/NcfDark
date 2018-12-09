@@ -277,12 +277,12 @@
     
     /* Message title link */
     td.content > table > tbody > tr:nth-child(n) > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td:nth-child(1) > a {
-        color:#4db2ff !important;
+        color: #4db2ff !important;
     }
     
     /* Show more link */
     #showLine > td > a {
-        color:#4db2ff !important;
+        color: #4db2ff !important;
     }
     
     /* Left-side menu */
@@ -795,12 +795,76 @@
     
     /* Menu */
     li.list-group-item {
-        background:inherit;
+        background: inherit;
     }
     
     /* Successful logout message */
     #container > div:nth-child(2) > div.col-lg-6 > div > div > div.container-fluid.p-0.m-0 > div > div > div > div {
-        background:#2B542C;
-        border-color:#278400;
+        background: #2B542C;
+        border-color: #278400;
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.ncf.ca/ncf/home/tools") {
+    /* DSL statement */
+    body > div > div:nth-child(2) > div,
+    body > div > div:nth-child(9) > div,
+    body > div > div:nth-child(12) > div {
+        background: inherit !important;
+    }
+    
+    
+    table#balanceHistory > tbody > tr > td, td._description, td._lineItemAmount {
+        background:#454545 !important;
+    }
+    
+    a.donate {
+        background: #245269;
+        border: none;
+    }
+    
+    #balanceHistory > tbody:nth-child(n) > tr:nth-child(n) > td._description > span {
+        color: #01cfff !important;
+    }
+    
+    /* DSL usage */
+    td.cFree,
+    td.cNorm,
+    span.cNorm,
+    span.cFree {
+        color: #171717;
+    }
+    
+    /* DSL Line stats */
+    body > table:nth-child(2) > tbody > tr > td > center > p > span {
+        color: inherit !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(n),
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(n) > tbody > tr > td > table:nth-child(2),
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(n) > tbody > tr > td > table:nth-child(2) *,
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(n) > tbody > tr > td > table:nth-child(3) > tbody > tr > td,
+    body > table:nth-child(2) > tbody > tr > td > form > table {
+        background: #454545 !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td > span > input[type="submit"],
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > form > span > input[type="submit"] {
+        background: #005da6 !important;
+        color:#fff !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > table > tbody > tr:nth-child(n) > th > span {
+        color:#01cfff !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > form > span {
+        position:relative !important;
+    }
+    
+    /* Auth log */
+    body > div > div > pre > span:nth-child(n) {
+        background:#454545;
+        color: inherit !important;
     }
     }
