@@ -680,3 +680,117 @@
         border-radius: 5px;
     }
     }
+    
+    @-moz-document url-prefix("https://www.ncf.ca/main/base/loggedout/") {
+    body {
+        background: #171717;
+    }
+    
+    a {
+        color: #4db2ff !important;
+        font-size: medium;
+    }
+    a:hover {
+        color: #0091ff !important;
+        text-decoration: underline;
+    }
+    a:visited {
+        color: #569cd6 !important;
+    }
+    
+    /* Francais link */
+    a.text-white {
+        color: #4db2ff !important;
+    }
+    
+    #container > div:nth-child(2) > div.col-lg-6 > div {
+        background: #171717;
+    }
+    
+    #container > div:nth-child(1) > div:nth-child(1) {
+        background: #242424;
+    }
+    #container > div:nth-child(2) > div:nth-child(1) {
+        background: #242424;
+    }
+    #container > div:nth-child(1) > div:nth-child(4) {
+        background: #242424;
+    }
+    #container > div:nth-child(2) > div:nth-child(4) {
+        background: #242424;
+    }
+    
+    #container > div:nth-child(1) > div.col-lg-4.col-sm-12.border-0.pl-0.ml-0.h-100 > div > div {
+        border-radius: 5px;
+        margin-left: 8px;
+    }
+    
+    /* Login */
+    form input[type="password"],
+    form input[type="text"] {
+        background: #171717;
+        border: 1px solid #454545;
+        color: #e3e3e3;
+        padding: 3px;
+    }
+    form input[type="password"]:hover,
+    form input[type="text"]:hover {
+        border: 1px solid #4db2ff;
+    }
+    form input[type="password"]:focus,
+    form input[type="text"]:focus {
+        background: #171717;
+        border: 3px solid #4db2ff;
+        color: #e3e3e3;
+    }
+    
+    form input[type="submit"] {
+        background-color: #005da6;
+        border-color: #004e8c;
+        border-radius: 5px;
+        color: #fff;
+        color: white;
+        font-size: larger;
+        min-width: 100px;
+        padding: 10px;
+    }
+    
+    /* Cards */
+    div.card {
+        background: #242424;
+        color: #e3e3e3;
+    }
+    
+    
+    div.card-header {
+        background: #415180;
+        color: #e3e3e3;
+    }
+    
+    div.card-body {
+        background: #242424 !important;
+    }
+    
+    /* Handle sponsor graphics */
+    #container > div:nth-child(1) > div.col-lg-6.border-0.pr-0.mr-0.justify-content-center > div > div.d-none.d-md-block {
+        background: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #container > div:nth-child(2) > div.col-lg-6 > div > div > div > p:nth-child(2) {
+        background: #ffffff;
+        border-radius: 5px;
+    }
+    
+    /* Menu */
+    li.list-group-item {
+        background:inherit;
+    }
+    
+    /* Successful logout message */
+    #container > div:nth-child(2) > div.col-lg-6 > div > div > div.container-fluid.p-0.m-0 > div > div > div > div {
+        background:#2B542C;
+        border-color:#278400;
+    }
+    }
