@@ -70,7 +70,7 @@
     }
     
     @-moz-document url-prefix("https://www.ncf.ca/ncf") {
-    /* Banner */
+        /* Banner */
     body > table:nth-child(1) {
         border-radius: 5px;
         margin-top: 10px;
@@ -315,6 +315,24 @@
     body > table > tbody > tr > td.sidebar a:hover {
         color: #0091ff !important;
         text-decoration: underline;
+    }
+    
+    
+    /* Footer message about add/remove status (usually) */
+    body > table:nth-child(2) > tbody > tr > td.content > p:nth-last-child(3) {
+        background: #66512C !important;
+        border-radius: 5px;
+        color: #fff !important;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    
+    /* Footer paragraph about "Add/remove" */
+    body > table:nth-child(2) > tbody > tr > td.content > p:last-child {
+        background: #245269 !important;
+        border-radius: 5px;
+        color: #fff !important;
+        padding: 10px;
     }
     }
     

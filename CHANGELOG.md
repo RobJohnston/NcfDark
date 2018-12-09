@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Move the banner down from the top edge.
+- Style the footer messages of discussion groups.
 
 ### Changed
  - Refactored links for consistency.
