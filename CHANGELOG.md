@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Apply form input hover and focus pseudo selectors site wide.
 - Add styles for logout page.
 
+### Changed
+- Target the discussion group index page explicitly.
+
 ### Fixed
 - Fix background of login page.
 

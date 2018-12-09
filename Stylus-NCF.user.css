@@ -182,7 +182,7 @@
     }
     }
     
-    @-moz-document url-prefix("https://www.ncf.ca/ncf/dg") {
+    @-moz-document url-prefix("https://www.ncf.ca/ncf/dg/index.jsp") {
     /* Text below header */
     body > table:nth-child(2) > tbody > tr > td.content > p {
         background: #171717 !important;
