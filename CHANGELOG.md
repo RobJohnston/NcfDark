@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Improve styles of form controls on login page.
 - Apply form input hover and focus pseudo selectors site wide.
 - Add styles for logout page.
+- Style the discussion group topic and link to show more.
 
 ### Changed
 - Target the discussion group index page explicitly.

@@ -275,6 +275,16 @@
         border: none !important;
     }
     
+    /* Message title link */
+    td.content > table > tbody > tr:nth-child(n) > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td:nth-child(1) > a {
+        color:#4db2ff !important;
+    }
+    
+    /* Show more link */
+    #showLine > td > a {
+        color:#4db2ff !important;
+    }
+    
     /* Left-side menu */
     td.sidebar h2 {
         background: #38225d;
