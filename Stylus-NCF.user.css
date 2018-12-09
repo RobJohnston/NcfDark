@@ -564,6 +564,23 @@
         background: #171717;
     }
     
+    a {
+        color: #4db2ff !important;
+        font-size: medium;
+    }
+    a:hover {
+        color: #0091ff !important;
+        text-decoration: underline;
+    }
+    a:visited {
+        color: #569cd6 !important;
+    }
+    
+    /* Francais link */
+    a.text-white {
+        color: #4db2ff !important;
+    }
+    
     #container > div:nth-child(2) > div.col-lg-6 > div {
         background: #171717;
     }
@@ -587,6 +604,36 @@
     }
     
     /* Login */
+    form input[type="password"],
+    form input[type="text"] {
+        background: #171717;
+        border: 1px solid #454545;
+        color: #e3e3e3;
+        padding: 3px;
+    }
+    form input[type="password"]:hover,
+    form input[type="text"]:hover {
+        border: 1px solid #4db2ff;
+    }
+    form input[type="password"]:focus,
+    form input[type="text"]:focus {
+        background: #171717;
+        border: 3px solid #4db2ff;
+        color: #e3e3e3;
+    }
+    
+    form input[type="submit"] {
+        background-color: #005da6;
+        border-color: #004e8c;
+        border-radius: 5px;
+        color: #fff;
+        color: white;
+        font-size: larger;
+        min-width: 100px;
+        padding: 10px;
+    }
+    
+    /* Cards */
     div.card {
         background: #242424;
         color: #e3e3e3;
@@ -598,12 +645,9 @@
         color: #e3e3e3;
     }
     
-    /* Bottom alert */
-    #container > div:nth-child(5) > div.col-lg-6.justify-self-center > div * {
-        background: #38225d !important;
-        color: #e3e3e3;
+    div.card-body {
+        background: #242424 !important;
     }
-    
     
     /* Handle sponsor graphics */
     #container > div:nth-child(1) > div.col-lg-6.border-0.pr-0.mr-0.justify-content-center > div > div.d-none.d-md-block {

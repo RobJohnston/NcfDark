@@ -6,8 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
-### Changed
-- Bump version number.
+### Added 
+- Improve styles of form controls on login page.
 
 ### Fixed
 - Fix background of login page.
