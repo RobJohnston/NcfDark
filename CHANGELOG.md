@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added 
 - Improve styles of form controls on login page.
+- Apply form input hover and focus pseudo selectors site wide.
 
 ### Fixed
 - Fix background of login page.

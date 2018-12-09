@@ -36,6 +36,17 @@
         color: #e3e3e3;
         padding: 3px;
     }
+    form input[type="password"]:hover,
+    form input[type="text"]:hover {
+        border: 1px solid #4db2ff;
+    }
+    form input[type="password"]:focus,
+    form input[type="text"]:focus {
+        background: #171717;
+        border: 3px solid #4db2ff;
+        color: #e3e3e3;
+    }
+    
     
     form input[type="reset"],
     form input[type="submit"] {
@@ -418,10 +429,18 @@
     }
     
     /* Input area */
-    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr:nth-child(4) > td > textarea {
+    textarea[name="comment"] {
         background: #242424;
         border-color: #454545;
         color: #e2e2e2;
+    }
+    
+    textarea[name="comment"]:hover {
+        border: 1px solid #4db2ff;
+    }
+    textarea[name="comment"]:focus {
+        border: 3px solid #4db2ff;
+        color: #e3e3e3;
     }
     
     /* "Back to list" header */
