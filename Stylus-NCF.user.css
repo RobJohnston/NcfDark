@@ -814,8 +814,10 @@
     }
     
     
-    table#balanceHistory > tbody > tr > td, td._description, td._lineItemAmount {
-        background:#454545 !important;
+    table#balanceHistory > tbody > tr > td,
+    td._description,
+    td._lineItemAmount {
+        background: #454545 !important;
     }
     
     a.donate {
@@ -851,20 +853,61 @@
     body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td > span > input[type="submit"],
     body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > form > span > input[type="submit"] {
         background: #005da6 !important;
-        color:#fff !important;
+        color: #fff !important;
     }
     
     body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > table > tbody > tr:nth-child(n) > th > span {
-        color:#01cfff !important;
+        color: #01cfff !important;
     }
     
     body > table:nth-child(2) > tbody > tr > td > table:nth-child(4) > tbody > tr > td > form > span {
-        position:relative !important;
+        position: relative !important;
     }
     
     /* Auth log */
     body > div > div > pre > span:nth-child(n) {
-        background:#454545;
+        background: #454545;
         color: inherit !important;
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.ncf.ca/ncf/home/spamfilter/") {
+    table.review {
+        background: #245269;
+        border: none;
+        border-radius: 12px;
+        padding: 10px;
+    }
+    
+    table.review * {
+        border: none !important;
+    }
+    
+    body > table:nth-child(2) > tbody > tr > td > p:nth-child(31) {
+        background: #245269 !important;
+        border: none !important;
+        border-radius: 5px;
+    }
+    
+    /* Disposable Email Addresses */
+    form {
+        background: inherit !important;
+    }
+    
+    form > table > tbody > tr:nth-child(1) > td > h3 {
+        color: inherit;
+    }
+    
+    table.log {
+        border: solid #454545 1px;
+        /*border-collapse:collapse;*/
+    }
+    
+    table.log > tbody > tr:nth-child(n) * {
+        background: #2e2e2e !important;
+    }
+    
+    table.log > tbody > tr:first-child * {
+        background: #242424 !important;
     }
     }
