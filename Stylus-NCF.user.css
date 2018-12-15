@@ -149,6 +149,14 @@
         margin-bottom: 8px;
     }
     
+    /* Put the e-mail refresh and unread count on same horizontal */
+    td.sidebar > p:nth-child(4) > a:nth-child(2) {
+        float:left;
+    }
+    td.sidebar > p:nth-child(4) > span {
+        float:right;
+    }
+    
     /* The ""...checking activity" text of DG favourites */
     #dgFavs > p > span * {
         color: #57a64a !important;

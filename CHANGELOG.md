@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Target the discussion group index page explicitly.
+- Put the e-mail refresh and unread count on same horizontal.
 
 ### Fixed
 
@@ -42,7 +43,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-  Fix to only apply to www (and not mail).
+- Fix to only apply to www (and not mail).
 
 ## 0.1.3 - 2018-12-06
 
