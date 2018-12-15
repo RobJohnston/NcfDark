@@ -889,6 +889,32 @@
         border-radius: 5px;
     }
     
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(1) > tbody > tr > td > img {
+        padding: 20px;
+    }
+    
+    /* Options */
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(1),
+    body > table:nth-child(2) > tbody > tr > td > form > p > span {
+        background: #245269 !important;
+        border: none !important;
+        border-radius: 2px;
+    }
+    
+    /* Soring Rules */
+    body > table:nth-child(2) > tbody > tr > td > table:nth-child(3) > tbody > tr:nth-child(3) > td:nth-child(1) {
+        color: #171717;
+    }
+    
+    /* Yellow Mail */
+    td.grn,
+    td.yel,
+    td.red,
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td:nth-child(1) > button > table > tbody > tr > td:nth-child(2),
+    body > table:nth-child(2) > tbody > tr > td > form > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1) > button > table > tbody > tr > td:nth-child(2) {
+        color: #171717;
+    }
+    
     /* Disposable Email Addresses */
     form {
         background: inherit !important;
