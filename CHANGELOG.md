@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+- N/A
+
+## 0.1.5 2018-12-16
+
 ### Added
 
 - Improve styles of form controls on login page.
